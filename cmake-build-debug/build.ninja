@@ -1,0 +1,263 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: pipes
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/stepa/CLionProjects/pipes/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target processM
+
+
+#############################################
+# Order-only phony target for processM
+
+build cmake_object_order_depends_target_processM: phony || CMakeFiles/processM.dir
+
+build CMakeFiles/processM.dir/processM.cpp.o: CXX_COMPILER__processM_Debug /Users/stepa/CLionProjects/pipes/processM.cpp || cmake_object_order_depends_target_processM
+  DEP_FILE = CMakeFiles/processM.dir/processM.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/processM.dir
+  OBJECT_FILE_DIR = CMakeFiles/processM.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target processM
+
+
+#############################################
+# Link the executable processM
+
+build processM: CXX_EXECUTABLE_LINKER__processM_Debug CMakeFiles/processM.dir/processM.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/processM.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = processM
+  TARGET_PDB = processM.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target processA
+
+
+#############################################
+# Order-only phony target for processA
+
+build cmake_object_order_depends_target_processA: phony || CMakeFiles/processA.dir
+
+build CMakeFiles/processA.dir/processA.cpp.o: CXX_COMPILER__processA_Debug /Users/stepa/CLionProjects/pipes/processA.cpp || cmake_object_order_depends_target_processA
+  DEP_FILE = CMakeFiles/processA.dir/processA.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/processA.dir
+  OBJECT_FILE_DIR = CMakeFiles/processA.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target processA
+
+
+#############################################
+# Link the executable processA
+
+build processA: CXX_EXECUTABLE_LINKER__processA_Debug CMakeFiles/processA.dir/processA.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/processA.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = processA
+  TARGET_PDB = processA.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target processP
+
+
+#############################################
+# Order-only phony target for processP
+
+build cmake_object_order_depends_target_processP: phony || CMakeFiles/processP.dir
+
+build CMakeFiles/processP.dir/processP.cpp.o: CXX_COMPILER__processP_Debug /Users/stepa/CLionProjects/pipes/processP.cpp || cmake_object_order_depends_target_processP
+  DEP_FILE = CMakeFiles/processP.dir/processP.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/processP.dir
+  OBJECT_FILE_DIR = CMakeFiles/processP.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target processP
+
+
+#############################################
+# Link the executable processP
+
+build processP: CXX_EXECUTABLE_LINKER__processP_Debug CMakeFiles/processP.dir/processP.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/processP.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = processP
+  TARGET_PDB = processP.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target processS
+
+
+#############################################
+# Order-only phony target for processS
+
+build cmake_object_order_depends_target_processS: phony || CMakeFiles/processS.dir
+
+build CMakeFiles/processS.dir/processS.cpp.o: CXX_COMPILER__processS_Debug /Users/stepa/CLionProjects/pipes/processS.cpp || cmake_object_order_depends_target_processS
+  DEP_FILE = CMakeFiles/processS.dir/processS.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/processS.dir
+  OBJECT_FILE_DIR = CMakeFiles/processS.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target processS
+
+
+#############################################
+# Link the executable processS
+
+build processS: CXX_EXECUTABLE_LINKER__processS_Debug CMakeFiles/processS.dir/processS.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/processS.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = processS
+  TARGET_PDB = processS.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pipes
+
+
+#############################################
+# Order-only phony target for pipes
+
+build cmake_object_order_depends_target_pipes: phony || CMakeFiles/pipes.dir
+
+build CMakeFiles/pipes.dir/main.cpp.o: CXX_COMPILER__pipes_Debug /Users/stepa/CLionProjects/pipes/main.cpp || cmake_object_order_depends_target_pipes
+  DEP_FILE = CMakeFiles/pipes.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/pipes.dir
+  OBJECT_FILE_DIR = CMakeFiles/pipes.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pipes
+
+
+#############################################
+# Link the executable pipes
+
+build pipes: CXX_EXECUTABLE_LINKER__pipes_Debug CMakeFiles/pipes.dir/main.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk
+  OBJECT_DIR = CMakeFiles/pipes.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = pipes
+  TARGET_PDB = pipes.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/stepa/CLionProjects/pipes/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/stepa/CLionProjects/pipes/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/stepa/CLionProjects/pipes -B/Users/stepa/CLionProjects/pipes/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/stepa/CLionProjects/pipes/cmake-build-debug
+
+build all: phony processM processA processP processS pipes
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/stepa/CLionProjects/pipes/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/stepa/CLionProjects/pipes/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

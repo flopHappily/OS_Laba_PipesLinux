@@ -1,0 +1,7 @@
+/Users/stepa/CLionProjects/pipes/cmake-build-debug/CMakeFiles/processM.dir
+/Users/stepa/CLionProjects/pipes/cmake-build-debug/CMakeFiles/processA.dir
+/Users/stepa/CLionProjects/pipes/cmake-build-debug/CMakeFiles/processP.dir
+/Users/stepa/CLionProjects/pipes/cmake-build-debug/CMakeFiles/processS.dir
+/Users/stepa/CLionProjects/pipes/cmake-build-debug/CMakeFiles/pipes.dir
+/Users/stepa/CLionProjects/pipes/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/stepa/CLionProjects/pipes/cmake-build-debug/CMakeFiles/rebuild_cache.dir

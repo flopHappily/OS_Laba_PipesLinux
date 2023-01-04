@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pipes",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "pipes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pipes-Debug-e01b5384e97cd561691d.json",
+					"name" : "pipes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "processA::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-processA-Debug-603a6f247bbdb89092b2.json",
+					"name" : "processA",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "processM::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-processM-Debug-565e30f44aeebb11f712.json",
+					"name" : "processM",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "processP::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-processP-Debug-75ee623a16cc748eb3b0.json",
+					"name" : "processP",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "processS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-processS-Debug-cb487b701a47a92ca245.json",
+					"name" : "processS",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/stepa/CLionProjects/pipes/cmake-build-debug",
+		"source" : "/Users/stepa/CLionProjects/pipes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
